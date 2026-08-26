@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <!-- Dark Slate Tech Background -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern for Data Science Theme -->
+    <pattern id="data-grid" x="0" y="0" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#38BDF8" stroke-width="1.5" opacity="0.05" />
+    </pattern>
+  </defs>
+
+  <!-- App Icon Square Canvas with Rounded Corners -->
+  <rect width="1024" height="1024" fill="url(#bg-grad)" rx="225" />
+  <rect width="1024" height="1024" fill="url(#data-grid)" rx="225" />
+
+  <!-- Background Tech Orbit / Data Science Ring -->
+  <circle cx="512" cy="512" r="360" fill="none" stroke="#38BDF8" stroke-width="6" opacity="0.15" stroke-dasharray="24 16" />
+  <circle cx="512" cy="512" r="410" fill="none" stroke="#FFD43B" stroke-width="3" opacity="0.1" />
+
+  <!-- Main Composition: Geometric Python 'P' Emblem -->
+  <g transform="translate(12, 0)">
+    
+    <!-- 1. Lower Vertical Stem & Base (Python Blue: #3776AB) -->
+    <!-- Represents Core Syntax, Logic, OOP & Web Foundations -->
+    <path d="M 352 320 L 352 704 C 352 748, 388 784, 432 784 C 476 784, 512 748, 512 704 L 512 512" 
+          fill="none" 
+          stroke="#3776AB" 
+          stroke-width="88" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- Blue Core Dot (Origin Node) -->
+    <circle cx="352" cy="320" r="28" fill="#3776AB" />
+    <circle cx="352" cy="320" r="10" fill="#FFFFFF" />
+
+    <!-- 2. Upper Loop & Data Expansion (Python Yellow: #FFD43B) -->
+    <!-- Represents AI, Data Science & Advanced Projects -->
+    <path d="M 432 240 L 600 240 C 688 240, 760 312, 760 400 C 760 488, 688 560, 600 560 L 352 560" 
+          fill="none" 
+          stroke="#FFD43B" 
+          stroke-width="88" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- Yellow Core Dot (AI/Data Node) -->
+    <circle cx="600" cy="400" r="28" fill="#FFD43B" />
+    <circle cx="600" cy="400" r="10" fill="#0F172A" />
+
+    <!-- 3. Interlocking Tech Nodes (Data Science & Web Highlights) -->
+    <!-- Node at Web / DB Junction -->
+    <circle cx="512" cy="560" r="16" fill="#38BDF8" />
+    <!-- Node at Advanced AI Junction -->
+    <circle cx="600" cy="240" r="16" fill="#38BDF8" />
+    
+    <!-- Spark / Growth Rays at Top Right (Symbolizing AI & Future) -->
+    <g fill="#38BDF8" opacity="0.8">
+      <circle cx="780" cy="220" r="8" />
+      <circle cx="830" cy="270" r="12" />
+      <circle cx="810" cy="170" r="6" />
+    </g>
+
+  </g>
+</svg>
